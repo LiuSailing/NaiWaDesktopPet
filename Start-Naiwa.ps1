@@ -17,7 +17,7 @@ if (!$SmokeTest -and !$AudioTest -and !$Benchmark) {
     return
 }
 Add-Type -AssemblyName System.Windows.Forms, System.Drawing, Accessibility
-$sources = @('NaiwaPet.cs', 'AnimationClip.cs', 'NativeRendering.cs', 'LaughRig.cs', 'BlinkRig.cs', 'BlinkCache.cs', 'RestRig.cs', 'AudioPlayback.cs', 'SoundOptionSlider.cs', 'MouseInteraction.cs', 'FlightMotion.cs', 'FlightRig.cs')
+$sources = @('NaiwaPet.cs', 'AnimationClip.cs', 'NativeRendering.cs', 'LaughRig.cs', 'BlinkRig.cs', 'BlinkCache.cs', 'RestRig.cs', 'AudioPlayback.cs', 'SoundOptionSlider.cs', 'MouseInteraction.cs', 'FlightMotion.cs', 'FlightRig.cs', 'AboutMenu.cs')
 Add-Type -Path @($sources | ForEach-Object { Join-Path $PSScriptRoot $_ }) -ReferencedAssemblies @('System.Windows.Forms', 'System.Drawing', 'Accessibility')
 
 $assetDir = Join-Path $PSScriptRoot 'assets\naiwa'

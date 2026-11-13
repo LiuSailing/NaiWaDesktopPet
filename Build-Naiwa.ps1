@@ -1,6 +1,6 @@
 ﻿param([switch]$Force, [switch]$Quiet)
 $ErrorActionPreference = 'Stop'
-$sources = @('ApplicationEntry.cs', 'NaiwaPet.cs', 'AnimationClip.cs', 'NativeRendering.cs', 'LaughRig.cs', 'BlinkRig.cs', 'BlinkCache.cs', 'RestRig.cs', 'AudioPlayback.cs', 'SoundOptionSlider.cs', 'MouseInteraction.cs', 'FlightMotion.cs', 'FlightRig.cs')
+$sources = @('ApplicationEntry.cs', 'NaiwaPet.cs', 'AnimationClip.cs', 'NativeRendering.cs', 'LaughRig.cs', 'BlinkRig.cs', 'BlinkCache.cs', 'RestRig.cs', 'AudioPlayback.cs', 'SoundOptionSlider.cs', 'MouseInteraction.cs', 'FlightMotion.cs', 'FlightRig.cs', 'AboutMenu.cs')
 $inputs = @($sources | ForEach-Object { Join-Path $PSScriptRoot $_ })
 $icon = Join-Path $PSScriptRoot 'assets\naiwa\naiwa-face-rounded.ico'
 $executable = Join-Path $PSScriptRoot 'NaiwaDesktopPet.exe'

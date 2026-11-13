@@ -171,6 +171,8 @@ namespace NaiwaDesktopPet
             topmost.CheckedChanged += (s, e) => TopMost = topmost.Checked;
             menu.Items.Add(topmost);
             menu.Items.Add(new ToolStripSeparator());
+            menu.Items.Add(new AboutMenuItem(displayScale, menu.Font, assetDirectory,
+                () => menu.Close(ToolStripDropDownCloseReason.ItemClicked)));
             menu.Items.Add("退出奶蛙", null, (s, e) => Close());
 
             imageAttributes.SetWrapMode(WrapMode.TileFlipXY);

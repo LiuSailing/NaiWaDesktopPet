@@ -16,7 +16,7 @@
 - **鼠标互动**：肚子 Q 弹回弹、点击腿脚后退、双击大笑、长按飞行。
 - **展翼飞行**：展开翅膀飞向屏幕边缘，落稳后收翼；朝向随方向变化，中断后可继续。
 - **动作音效**：各动作可独立设置音效，大笑动作随音频进度连续播放。
-- **桌面操作**：拖动定位、跨显示器拖动、暂停动画、始终置顶和桌面快捷方式。
+- **桌面操作**：拖动定位、跨显示器拖动、暂停动画、始终置顶、桌面快捷方式，以及“关于”菜单中的作者与 GitHub 项目链接。
 
 绘制目标为 **100 FPS**，实际刷新效果取决于电脑性能和显示器。
 
@@ -58,7 +58,7 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Build-Naiwa.ps1
 构建使用 Windows PowerShell 5.1 和 .NET Framework C# 编译器。
 
 - [详细使用、分享与开发检查](使用说明.md)
-- [角色与图标来源](assets/naiwa/SOURCES.md) · [音效来源](assets/audio/SOURCES.md)
+- [角色与图标来源](assets/naiwa/SOURCES.md) · [音效来源](assets/audio/SOURCES.md) · [GitHub 图标许可](assets/github/NOTICE.md)
 - [问题反馈与建议](https://github.com/LiuSailing/NaiWaDesktopPet/issues)
 
 本项目原创代码与脚本采用 [MIT 许可证](LICENSE)，允许修改、分发及商用，须保留版权与许可声明。
