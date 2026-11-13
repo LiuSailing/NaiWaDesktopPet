@@ -1,0 +1,14 @@
+# IDE and local build files
+.idea/
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+NaiwaDesktopPet-build-*.exe
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+.DS_Store

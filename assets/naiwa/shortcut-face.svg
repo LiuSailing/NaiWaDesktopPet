@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1254" height="1254" viewBox="0 0 1254 1254">
+  <title>奶蛙原表情：降亮度与圆角</title>
+  <defs>
+    <clipPath id="rounded"><rect width="1254" height="1254" rx="250"/></clipPath>
+    <filter id="tone" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="gamma" amplitude="0.92" exponent="1.1" offset="0"/>
+        <feFuncG type="gamma" amplitude="0.85" exponent="1.25" offset="0"/>
+        <feFuncB type="gamma" amplitude="0.78" exponent="1.2" offset="0"/>
+        <feFuncA type="linear" slope="0" intercept="1"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <image xlink:href="shortcut-face-original.png" width="1254" height="1254" filter="url(#tone)" clip-path="url(#rounded)"/>
+</svg>

@@ -1,0 +1,9 @@
+* text=auto
+
+# Preserve script encodings, including the UTF-16 shortcut installer.
+*.vbs -text
+
+*.png binary
+*.ico binary
+*.mp3 binary
+*.exe binary
